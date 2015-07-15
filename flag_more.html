@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        h1 {
+            font-family: sans-serif;
+        }
+
+        body {
+            margin: 0;
+        }
+
+        .vertical_stack {
+            height: 200px;
+            width: 350px;
+            font-size: 0;
+            background-color: red;
+        }
+        .horizontal_stack {
+            height: 100px;
+            width: 100px;
+            background-color: black;
+            font-size: 0;
+            display: inline-block;
+        }
+
+        #blue {
+            background-color: blue;
+        }
+
+        .left_box {
+            margin: 50px 25px 50px 50px;
+        }
+        .right_box {
+            margin: 50px 50px 50px 25px;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <div class="vertical_stack">
+        <div class="horizontal_stack left_box">
+        </div>
+        <div class="horizontal_stack right_box">
+        </div>
+    </div>
+    <div class="vertical_stack" id="blue">
+        <div class="horizontal_stack left_box">
+        </div>
+        <div class="horizontal_stack right_box">
+        </div>
+    </div>
+</body>
+</html>

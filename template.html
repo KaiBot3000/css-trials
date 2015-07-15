@@ -13,21 +13,39 @@
         div {
             height: 100px;
             width: 500px;
+            font-size: 0;
+        }
+
+        #flag {
+            height: 300px;
+            border: 5px solid black;
+        }
+
+        #blue {
+            background-color: #3e2d8b;
+            display: inline-block;
+            width: 34%;
+            height: 100%;
+        }
+        #yellow {
+            background-color: yellow;
+            display: inline-block;
+            width: 33%;
+            height: 100%;
         }
         #red {
-            background-color: red;
-        }
-        #black {
-            background-color: black;
-        }
-        #gold {
-            background-color: #ffd700;
+            background-color: #d81f3e;
+            display: inline-block;
+            width: 33%;
+            height: 100%;
         }
     </style>
 </head>
 <body>
-    <div id='black'></div>
-    <div id='red'></div>
-    <div id='gold'></div>
+    <div id="flag">
+        <div id='blue'></div>
+        <div id='yellow'></div>
+        <div id='red'></div>
+    </div>
 </body>
 </html>
